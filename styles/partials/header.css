@@ -18,7 +18,7 @@
 
 .page-header .top-bar-container a {
     height: 3.2rem;
-    transition: opacity 250ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
 }
 
 .page-header .top-bar-container a:hover {
