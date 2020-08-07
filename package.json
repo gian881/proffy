@@ -1,0 +1,19 @@
+{
+  "name": "proffy",
+  "version": "1.0.0",
+  "description": "An online study platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": "https://github.com/gian8311/proffy.git",
+  "author": "Gian <gdass8000@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
