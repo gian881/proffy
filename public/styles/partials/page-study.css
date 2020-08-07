@@ -125,7 +125,7 @@
 
 }
 
-.teacher-item footer button {
+.teacher-item footer .button {
     width: 20rem;
     height: 5.6rem;
 
@@ -150,14 +150,15 @@
 
     margin-left: 1.6rem;
 
-    transition: all 300ms ease-in-out;
+    transition: background-color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer .button:hover {
     background-color: var(--color-secondary-dark);
 }
 
-.teacher-item footer button:focus {
+.teacher-item footer .button:focus {
     box-shadow: 0 0 0.1rem 0.1rem #07a521;
 }
 

@@ -22,7 +22,7 @@
     font-size: 1.6rem;
     font-family: Archivo;
 
-    transition: all 300ms ease-in-out;
+    transition: border-bottom 300ms ease-in-out;
 
 }
 
