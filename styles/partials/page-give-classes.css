@@ -43,6 +43,7 @@
 #page-give-classes fieldset legend button {
     background: none;
     border: 0;
+    outline: 0;
 
     color: var(--color-primary);
     font-weight: 700;
