@@ -21,6 +21,7 @@
 
     font-size: 1.6rem;
     font-family: Archivo;
+    color: var(--color-text-base);
 
     transition: border-bottom 300ms ease-in-out;
 
@@ -40,6 +41,12 @@
 .input-block input:focus,
 .textarea-block textarea:focus {
     border-bottom: 2px solid var(--color-primary-lighter);
+}
+
+label small {
+    font-size: 1.2rem;
+    padding-left: 1.2rem;
+    color: var(--color-small-info);
 }
 
 /* 
