@@ -162,6 +162,12 @@
     box-shadow: 0 0 0.1rem 0.1rem #07a521;
 }
 
+#page-study main .no-results {
+    max-width: 30rem;
+    margin: 12rem auto;
+    text-align: center;
+}
+
 /* DESKTOP */
 @media(min-width:700px) {
 
