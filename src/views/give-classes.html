@@ -42,7 +42,7 @@
     </header>
 
     <main>
-      <form action="" id="create-class">
+      <form action="/save-classes" id="create-class" method="POST">
         <fieldset>
           <legend>Seus Dados</legend>
 
@@ -74,8 +74,7 @@
           <div class="select-block">
             <label for="subject">Matéria</label>
             <select name="subject" id="subject" required>
-              <option value="">Selecione uma opção</option>
-              <option value="" disabled="" hidden="">Selecione uma opção</option>
+              <option value="" hidden="">Selecione qual você quer ensinar</option>
               {%for subject in subjects %}
               <option value="{{loop.index}}">{{subject}}</option>
               {%endfor %}
@@ -96,7 +95,7 @@
             <div class="select-block">
               <label for="weekday">Dia da Semana</label>
               <select name="weekday[]" id="weekday" required>
-                <option value="">Selecione uma opção</option>
+                <option value="" hidden="">Selecione o dia</option>
                 {%for weekday in weekdays %}
                 <option value="{{loop.index0}}">{{weekday}}</option>
                 {%endfor %}
